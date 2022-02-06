@@ -1,0 +1,3 @@
+#!/bin/sh
+
+aws s3 sync src s3://peterorum --acl public-read --exclude .DS_Store
